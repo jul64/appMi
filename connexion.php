@@ -1,6 +1,6 @@
 <?php
 define( 'DB_HOST', getenv("MYSQL_SERVICE_HOST"));
-define( 'DB_PORT', getenv("MYSQL_SERVICE_HOST") );
+define( 'DB_PORT', getenv("MYSQL_SERVICE_PORT") );
 define( 'DB_NAME', getenv("MYSQL_DATABASE"));
 define( 'DB_USER', getenv("MYSQL_USER") );
 define( 'DB_PASSWORD', getenv("MYSQL_ROOT_PASSWORD") );
